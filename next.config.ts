@@ -5,6 +5,7 @@ const nextConfig: NextConfig = {
   /* config options here */
   output: 'export',
   trailingSlash: true,
+  basePath: '/compliance-radar-web',
   allowedDevOrigins: ['*.dev.coze.site'],
   images: {
     unoptimized: true,
