@@ -1,28 +1,26 @@
 import type { Metadata } from 'next';
 import { Inspector } from 'react-dev-inspector';
 import './globals.css';
+import { Navigation } from '@/components/Navigation';
 
 export const metadata: Metadata = {
   title: {
-    default: '新应用 | 扣子编程',
-    template: '%s | 扣子编程',
+    default: '合规雷达 - 机器人合规导航仪',
+    template: '%s | 合规雷达',
   },
   description:
-    '扣子编程是一款一站式云端 Vibe Coding 开发平台。通过对话轻松构建智能体、工作流和网站，实现从创意到上线的无缝衔接。',
+    '合规雷达是机器人合规导航仪，帮助企业快速了解机器人产品在不同市场的合规要求，提供法规时间线和合规查询服务。',
   keywords: [
-    '扣子编程',
-    'Coze Code',
-    'Vibe Coding',
-    'AI 编程',
-    '智能体搭建',
-    '工作流搭建',
-    '网站搭建',
-    '网站部署',
-    '全栈开发',
-    'AI 工程师',
+    '合规雷达',
+    '机器人合规',
+    '合规查询',
+    '法规导航',
+    '机器人法规',
+    '市场合规',
+    '合规指南',
   ],
-  authors: [{ name: 'Coze Code Team', url: 'https://code.coze.cn' }],
-  generator: 'Coze Code',
+  authors: [{ name: '合规雷达团队' }],
+  generator: '合规雷达',
   // icons: {
   //   icon: '',
   // },
@@ -64,9 +62,10 @@ export default function RootLayout({
   const isDev = process.env.COZE_PROJECT_ENV === 'DEV';
 
   return (
-    <html lang="en">
+    <html lang="zh-CN">
       <body className={`antialiased`}>
         {isDev && <Inspector />}
+        <Navigation />
         {children}
       </body>
     </html>
