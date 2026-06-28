@@ -6,12 +6,10 @@ COZE_WORKSPACE_PATH="${COZE_WORKSPACE_PATH:-$(pwd)}"
 PORT=5000
 DEPLOY_RUN_PORT="${DEPLOY_RUN_PORT:-$PORT}"
 
+cd "${COZE_WORKSPACE_PATH}"
 
-start_service() {
-    cd "${COZE_WORKSPACE_PATH}"
-    echo "Starting HTTP service on port ${DEPLOY_RUN_PORT} for deploy..."
-    PORT=${DEPLOY_RUN_PORT} node dist/server.js
-}
+echo "Starting static file server on port ${DEPLOY_RUN_PORT}..."
+echo "Serving files from out/ directory"
 
-echo "Starting HTTP service on port ${DEPLOY_RUN_PORT} for deploy..."
-start_service
+# 使用 npx serve 来提供静态文件服务
+npx serve -s out -l ${DEPLOY_RUN_PORT}
