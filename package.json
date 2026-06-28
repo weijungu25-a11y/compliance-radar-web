@@ -4,6 +4,7 @@
   "private": true,
   "scripts": {
     "build": "bash ./scripts/build.sh",
+    "build:next": "next build",
     "dev": "bash ./scripts/dev.sh",
     "lint": "eslint",
     "lint:build": "eslint . --quiet",
