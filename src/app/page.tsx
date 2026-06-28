@@ -40,16 +40,16 @@ export default function Home() {
     <div className="min-h-screen bg-background">
       {/* Hero Section */}
       <section className="relative overflow-hidden bg-gradient-to-b from-blue-50 to-background dark:from-blue-950 dark:to-background">
-        <div className="container mx-auto px-4 py-24 sm:py-32">
+        <div className="container mx-auto px-4 py-16 sm:py-20 lg:py-24">
           <div className="flex flex-col items-center justify-center text-center">
             {/* Radar Animation */}
-            <div className="relative mb-8 h-32 w-32">
+            <div className="relative mb-6 h-24 w-24 sm:h-32 sm:w-32 flex-shrink-0">
               <div className="absolute inset-0 rounded-full bg-blue-500 opacity-20 animate-pulse" />
-              <div className="absolute inset-4 rounded-full bg-blue-500 opacity-30" />
-              <div className="absolute inset-8 rounded-full bg-blue-500 opacity-40" />
-              <div className="absolute inset-12 rounded-full bg-blue-500" />
+              <div className="absolute inset-3 rounded-full bg-blue-500 opacity-30" />
+              <div className="absolute inset-6 rounded-full bg-blue-500 opacity-40" />
+              <div className="absolute inset-9 sm:inset-12 rounded-full bg-blue-500" />
               <svg
-                className="absolute inset-0 h-32 w-32 animate-spin"
+                className="absolute inset-0 h-24 w-24 sm:h-32 sm:w-32 animate-spin"
                 style={{ animationDuration: '3s' }}
                 viewBox="0 0 100 100"
               >

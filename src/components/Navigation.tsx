@@ -15,12 +15,12 @@ export function Navigation() {
   const pathname = usePathname();
 
   return (
-    <header className="sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
-      <div className="container mx-auto flex h-16 items-center justify-between px-4">
+    <header className="sticky top-0 z-[100] w-full border-b bg-white/95 backdrop-blur dark:bg-slate-900/95 supports-[backdrop-filter]:bg-white/60 dark:supports-[backdrop-filter]:bg-slate-900/60">
+      <div className="container mx-auto flex h-14 sm:h-16 items-center justify-between px-4">
         <Link href="/" className="flex items-center space-x-2">
-          <div className="h-8 w-8 rounded-lg bg-blue-500 flex items-center justify-center">
+          <div className="h-7 w-7 sm:h-8 sm:w-8 rounded-lg bg-blue-500 flex items-center justify-center flex-shrink-0">
             <svg
-              className="h-5 w-5 text-white"
+              className="h-4 w-4 sm:h-5 sm:w-5 text-white"
               fill="none"
               stroke="currentColor"
               viewBox="0 0 24 24"
@@ -33,7 +33,7 @@ export function Navigation() {
               />
             </svg>
           </div>
-          <span className="text-xl font-bold text-foreground">合规雷达</span>
+          <span className="text-lg sm:text-xl font-bold text-slate-900 dark:text-slate-100">合规雷达</span>
         </Link>
 
         <nav className="flex items-center space-x-1">
