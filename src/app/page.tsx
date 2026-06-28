@@ -39,19 +39,20 @@ export default function Home() {
   return (
     <div className="min-h-screen bg-background">
       {/* Hero Section */}
-      <section className="relative overflow-hidden bg-gradient-to-b from-blue-50 to-background dark:from-blue-950 dark:to-background">
-        <div className="container mx-auto px-4 py-16 sm:py-20 lg:py-24">
-          <div className="flex flex-col items-center justify-center text-center">
-            {/* Radar Animation */}
-            <div className="relative mb-6 h-24 w-24 sm:h-32 sm:w-32 flex-shrink-0">
+      <section className="relative bg-gradient-to-b from-blue-50 to-background dark:from-blue-950 dark:to-background py-12 sm:py-16 lg:py-20">
+        <div className="container mx-auto px-4">
+          <div className="flex flex-col items-center justify-center text-center max-w-4xl mx-auto">
+            {/* Radar Animation - 确保尺寸被明确约束 */}
+            <div className="relative mb-6 h-20 w-20 sm:h-24 sm:w-24 flex-shrink-0">
               <div className="absolute inset-0 rounded-full bg-blue-500 opacity-20 animate-pulse" />
-              <div className="absolute inset-3 rounded-full bg-blue-500 opacity-30" />
-              <div className="absolute inset-6 rounded-full bg-blue-500 opacity-40" />
-              <div className="absolute inset-9 sm:inset-12 rounded-full bg-blue-500" />
+              <div className="absolute inset-2 sm:inset-3 rounded-full bg-blue-500 opacity-30" />
+              <div className="absolute inset-4 sm:inset-6 rounded-full bg-blue-500 opacity-40" />
+              <div className="absolute inset-6 sm:inset-9 rounded-full bg-blue-500" />
               <svg
-                className="absolute inset-0 h-24 w-24 sm:h-32 sm:w-32 animate-spin"
+                className="absolute top-0 left-0 h-20 w-20 sm:h-24 sm:w-24 animate-spin"
                 style={{ animationDuration: '3s' }}
                 viewBox="0 0 100 100"
+                preserveAspectRatio="xMidYMid meet"
               >
                 <path
                   d="M 50 50 L 50 0 A 50 50 0 0 1 100 50 Z"
