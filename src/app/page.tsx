@@ -42,7 +42,8 @@ export default function Home() {
       <section className="relative bg-gradient-to-b from-blue-50 to-background dark:from-blue-950 dark:to-background py-12 sm:py-16 lg:py-20">
         <div className="container mx-auto px-4">
           <div className="flex flex-col items-center justify-center text-center max-w-4xl mx-auto">
-            {/* Radar Animation - 确保尺寸被明确约束 */}
+            {/* Radar Animation - 临时注释掉以排查问题 */}
+            {/* 
             <div className="relative mb-6 h-20 w-20 sm:h-24 sm:w-24 flex-shrink-0">
               <div className="absolute inset-0 rounded-full bg-blue-500 opacity-20 animate-pulse" />
               <div className="absolute inset-2 sm:inset-3 rounded-full bg-blue-500 opacity-30" />
@@ -60,6 +61,16 @@ export default function Home() {
                   className="animate-pulse"
                 />
               </svg>
+            </div>
+            */}
+            
+            {/* Logo Icon - 简单的替代图标 */}
+            <div className="mb-6 flex-shrink-0">
+              <div className="h-16 w-16 sm:h-20 sm:w-20 rounded-full bg-gradient-to-br from-blue-500 to-blue-600 flex items-center justify-center shadow-lg">
+                <svg className="h-8 w-8 sm:h-10 sm:w-10 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 20l-5.447-2.724A1 1 0 014 16.382V5.618a1 1 0 01.553-.894L9 3m0 0l6 3m-6-3v17m6-17l5.447 2.724A1 1 0 0120 7.618v8.764a1 1 0 01-.553.894L15 20m0 0l-6-3m6 3v-1m0-2v-2m0-2v-2" />
+                </svg>
+              </div>
             </div>
 
             {/* Slogan */}
