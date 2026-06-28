@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import { Inspector } from 'react-dev-inspector';
 import './globals.css';
 import { Navigation } from '@/components/Navigation';
+import { Footer } from '@/components/Footer';
 
 export const metadata: Metadata = {
   title: {
@@ -19,17 +20,17 @@ export const metadata: Metadata = {
     '市场合规',
     '合规指南',
   ],
-  authors: [{ name: '合规雷达团队' }],
+  authors: [{ name: '牛宿（杭州）科技有限责任公司' }],
   generator: '合规雷达',
   // icons: {
   //   icon: '',
   // },
   openGraph: {
-    title: '扣子编程 | 你的 AI 工程师已就位',
+    title: '合规雷达 - 机器人合规导航仪',
     description:
-      '我正在使用扣子编程 Vibe Coding，让创意瞬间上线。告别拖拽，拥抱心流。',
-    url: 'https://code.coze.cn',
-    siteName: '扣子编程',
+      '牛宿（杭州）科技有限责任公司提供的机器人合规导航仪，帮助企业快速了解机器人产品在不同市场的合规要求。',
+    url: 'https://compliance-radar.com',
+    siteName: '合规雷达',
     locale: 'zh_CN',
     type: 'website',
     // images: [
@@ -37,7 +38,7 @@ export const metadata: Metadata = {
     //     url: '',
     //     width: 1200,
     //     height: 630,
-    //     alt: '扣子编程 - 你的 AI 工程师',
+    //     alt: '合规雷达 - 机器人合规导航仪',
     //   },
     // ],
   },
@@ -67,6 +68,7 @@ export default function RootLayout({
         {isDev && <Inspector />}
         <Navigation />
         {children}
+        <Footer />
       </body>
     </html>
   );

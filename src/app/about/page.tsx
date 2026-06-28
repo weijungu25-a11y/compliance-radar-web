@@ -274,6 +274,31 @@ export default function AboutPage() {
           </Card>
         </section>
 
+        {/* Company Profile Section */}
+        <section className="mb-12">
+          <Card>
+            <CardHeader>
+              <CardTitle className="text-2xl">关于牛宿科技</CardTitle>
+            </CardHeader>
+            <CardContent className="text-base">
+              <p className="mb-4 font-semibold text-blue-500">
+                牛宿（杭州）科技有限责任公司
+              </p>
+              <p className="mb-4">
+                牛宿（杭州）科技有限责任公司，专注于具身智能机器人合规服务。
+              </p>
+              <p className="mb-4">
+                作为具身智能机器人合规领域的先行者，我们致力于为机器人企业提供全方位的合规解决方案，
+                包括法规解读、标准匹配、认证指导和风险评估等专业服务。
+              </p>
+              <p>
+                我们拥有丰富的行业经验和专业团队，帮助企业快速了解全球主要市场的法规要求，
+                降低合规风险，加速产品上市，让您的机器人产品合规无忧。
+              </p>
+            </CardContent>
+          </Card>
+        </section>
+
         {/* Contact Section */}
         <section className="mb-12 text-center">
           <h2 className="text-3xl font-bold mb-4">联系我们</h2>
@@ -287,13 +312,13 @@ export default function AboutPage() {
                   <svg className="h-5 w-5 text-blue-500 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
                   </svg>
-                  <span className="text-base">contact@compliance-radar.com</span>
+                  <span className="text-base">contact@niusu-tech.com</span>
                 </div>
                 <div className="flex items-center justify-center">
                   <svg className="h-5 w-5 text-blue-500 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9a9 9 0 01-9-9m9 9c1.657 0 3-4.03 3-9s-1.343-9-3-9m0 18c-1.657 0-3-4.03-3-9s1.343-9 3-9m-9 9a9 9 0 019-9m-9 9a9 9 0 009 9" />
                   </svg>
-                  <span className="text-base">www.compliance-radar.com</span>
+                  <span className="text-base">www.niusu-tech.com</span>
                 </div>
               </div>
             </CardContent>
