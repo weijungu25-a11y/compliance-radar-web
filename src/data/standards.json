@@ -1,0 +1,458 @@
+[
+  {
+    "id": "gb-11291-1",
+    "number": "GB 11291.1-2011",
+    "name": "工业机器人安全要求 第1部分：机器人",
+    "description": "工业机器人系统的基本安全要求，适用于工业机器人的设计和制造",
+    "market": "中国",
+    "robotTypes": ["工业机器人"],
+    "priority": "mandatory",
+    "status": "effective",
+    "effectiveDate": "2011-10-01",
+    "requirements": [
+      "必须配备紧急停止装置，响应时间≤100ms",
+      "操作人员防护距离≥500mm或设置物理屏障",
+      "控制系统安全等级达到PL=d级（ISO 13849）",
+      "必须进行风险评估并记录风险减小措施",
+      "提供完整的安全操作手册和培训资料"
+    ],
+    "scope": "适用于工业环境中的操作机器人，不包括医疗机器人"
+  },
+  {
+    "id": "gb-11291-2",
+    "number": "GB 11291.2-2013",
+    "name": "工业机器人安全要求 第2部分：机器人系统与集成",
+    "description": "工业机器人系统集成和应用的补充安全要求",
+    "market": "中国",
+    "robotTypes": ["工业机器人"],
+    "priority": "mandatory",
+    "status": "effective",
+    "effectiveDate": "2013-07-01",
+    "requirements": [
+      "机器人系统必须进行整体风险评估",
+      "必须设置安全防护区域和警示标识",
+      "控制系统集成安全验证报告",
+      "提供系统级安全操作规程",
+      "必须进行安全功能测试和验收"
+    ],
+    "scope": "适用于工业机器人系统的设计、集成、安装和操作"
+  },
+  {
+    "id": "gb-t-36008",
+    "number": "GB/T 36008-2018",
+    "name": "服务机器人安全要求及测试方法",
+    "description": "服务机器人的通用安全要求和测试方法",
+    "market": "中国",
+    "robotTypes": ["服务机器人", "人形机器人"],
+    "priority": "recommended",
+    "status": "effective",
+    "effectiveDate": "2018-10-01",
+    "requirements": [
+      "运动部件必须有碰撞检测或防护设计",
+      "与人接触的部件表面温度≤45℃",
+      "噪声水平≤65dB(A)",
+      "电磁兼容性符合GB/T 9254要求",
+      "必须具备安全通信接口"
+    ],
+    "scope": "适用于家庭、商业、公共服务环境中的服务机器人"
+  },
+  {
+    "id": "gb-9706",
+    "number": "GB 9706系列",
+    "name": "医用电气设备安全要求",
+    "description": "医疗电气设备（含医疗机器人）的电气安全要求",
+    "market": "中国",
+    "robotTypes": ["医疗机器人"],
+    "priority": "mandatory",
+    "status": "effective",
+    "effectiveDate": "2008-01-01",
+    "requirements": [
+      "必须通过医疗器械注册证审批",
+      "电气安全符合GB 9706.1标准",
+      "电磁兼容性符合YY 0505要求",
+      "必须进行临床验证或等同性评估",
+      "需建立质量管理体系（ISO 13485）"
+    ],
+    "scope": "适用于医疗机器人中的电气安全部分"
+  },
+  {
+    "id": "hangzhou-embodied-ai",
+    "number": "杭州市具身智能发展条例",
+    "name": "杭州市具身智能发展条例",
+    "description": "杭州市关于人形机器人/具身智能产业的地方性法规",
+    "market": "中国",
+    "robotTypes": ["人形机器人"],
+    "priority": "mandatory",
+    "status": "upcoming",
+    "effectiveDate": "2026-05-01",
+    "requirements": [
+      "人形机器人必须备案登记",
+      "数据采集和处理需符合隐私保护要求",
+      "公共场所使用需申请许可",
+      "必须建立安全追溯机制",
+      "定期安全评估和更新"
+    ],
+    "scope": "适用于杭州市范围内的人形机器人产品和服务"
+  },
+  {
+    "id": "digital-id-spec",
+    "number": "人形机器人数字身份证规范",
+    "name": "人形机器人数字身份证技术规范",
+    "description": "人形机器人身份标识和管理的技术规范",
+    "market": "中国",
+    "robotTypes": ["人形机器人"],
+    "priority": "mandatory",
+    "status": "upcoming",
+    "effectiveDate": "2026-05-29",
+    "requirements": [
+      "每台人形机器人必须配备唯一数字身份标识",
+      "身份信息需包含制造商、型号、生产日期等",
+      "支持身份信息的实时验证和查询",
+      "身份标识需具备防篡改和防伪造功能",
+      "建立身份信息的生命周期管理机制"
+    ],
+    "scope": "适用于所有在中国市场销售的人形机器人"
+  },
+  {
+    "id": "eu-ai-act",
+    "number": "EU AI Act",
+    "name": "欧盟人工智能法案",
+    "description": "欧盟对人工智能系统的监管框架，对高风险AI实施严格监管",
+    "market": "欧盟",
+    "robotTypes": ["人形机器人", "医疗机器人", "工业机器人", "服务机器人"],
+    "priority": "mandatory",
+    "status": "upcoming",
+    "effectiveDate": "2026-08-02",
+    "requirements": [
+      "高风险AI系统必须进行风险评估和合规评估",
+      "必须建立透明度和可解释性机制",
+      "数据训练需符合版权和数据保护要求",
+      "必须建立人为监督和干预机制",
+      "需进行CE认证并加贴CE标志"
+    ],
+    "scope": "适用于所有在欧盟市场销售或使用的高风险AI系统"
+  },
+  {
+    "id": "en-iso-10218-1",
+    "number": "EN ISO 10218-1:2011",
+    "name": "机器人安全要求 第1部分：工业机器人",
+    "description": "欧洲版工业机器人安全标准",
+    "market": "欧盟",
+    "robotTypes": ["工业机器人"],
+    "priority": "mandatory",
+    "status": "effective",
+    "effectiveDate": "2011-07-01",
+    "requirements": [
+      "必须配备安全停止功能和紧急停止装置",
+      "安全控制系统等级达到SIL2或PL=d",
+      "必须进行风险评估（ISO 12100）",
+      "提供完整的技术文件和使用说明书",
+      "必须通过第三方认证机构的评估"
+    ],
+    "scope": "适用于工业环境中的操作机器人"
+  },
+  {
+    "id": "en-iso-10218-2",
+    "number": "EN ISO 10218-2:2011",
+    "name": "机器人安全要求 第2部分：机器人系统与集成",
+    "description": "欧洲版工业机器人系统集成安全标准",
+    "market": "欧盟",
+    "robotTypes": ["工业机器人"],
+    "priority": "mandatory",
+    "status": "effective",
+    "effectiveDate": "2011-07-01",
+    "requirements": [
+      "系统集成必须进行安全验证",
+      "必须设计安全防护措施和警示系统",
+      "提供系统集成安全验证报告",
+      "必须进行操作人员培训",
+      "定期进行安全检查和维护"
+    ],
+    "scope": "适用于工业机器人系统的设计、集成、安装和操作"
+  },
+  {
+    "id": "en-iso-13482",
+    "number": "EN ISO 13482:2014",
+    "name": "机器人安全要求 个人护理机器人",
+    "description": "服务机器人（个人护理机器人）的安全标准",
+    "market": "欧盟",
+    "robotTypes": ["服务机器人", "人形机器人"],
+    "priority": "mandatory",
+    "status": "effective",
+    "effectiveDate": "2014-02-01",
+    "requirements": [
+      "与人接触的部件必须设计为安全接触或碰撞保护",
+      "运动速度和力必须限制在安全范围内",
+      "必须具备紧急停止和人为干预机制",
+      "噪声水平符合欧盟噪声指令要求",
+      "必须进行CE认证"
+    ],
+    "scope": "适用于个人护理机器人，包括移动 servant 机器人、物理助理机器人"
+  },
+  {
+    "id": "ce-marking",
+    "number": "CE认证",
+    "name": "CE标志认证",
+    "description": "进入欧盟市场的强制性产品合格认证",
+    "market": "欧盟",
+    "robotTypes": ["工业机器人", "服务机器人", "医疗机器人", "人形机器人", "无人机"],
+    "priority": "mandatory",
+    "status": "effective",
+    "effectiveDate": "1993-01-01",
+    "requirements": [
+      "必须符合相关欧盟指令的要求",
+      "编制技术文件和符合性声明",
+      "加贴CE标志并提供EC符合性声明",
+      "部分产品需通过第三方认证机构评估",
+      "建立产品追溯和质量管理体系"
+    ],
+    "scope": "适用于所有在欧盟市场销售的机器人产品"
+  },
+  {
+    "id": "machinery-regulation",
+    "number": "Machinery Regulation (EU) 2023/1230",
+    "name": "欧盟机械法规",
+    "description": "欧盟新的机械安全法规，替代原机械指令",
+    "market": "欧盟",
+    "robotTypes": ["工业机器人", "服务机器人"],
+    "priority": "mandatory",
+    "status": "upcoming",
+    "effectiveDate": "2027-01-20",
+    "requirements": [
+      "必须进行全面的风险评估",
+      "必须符合基本健康和安全要求",
+      "技术文件需包含完整的设计和制造信息",
+      "必须提供使用说明书和安全警示",
+      "高风险机械需通过第三方认证"
+    ],
+    "scope": "适用于所有机械产品，包括机器人"
+  },
+  {
+    "id": "ansi-ria-r15-06",
+    "number": "ANSI/RIA R15.06-2012",
+    "name": "工业机器人安全标准",
+    "description": "美国工业机器人安全标准",
+    "market": "美国",
+    "robotTypes": ["工业机器人"],
+    "priority": "mandatory",
+    "status": "effective",
+    "effectiveDate": "2012-01-01",
+    "requirements": [
+      "必须进行风险评估（RA）",
+      "安全控制系统等级达到SIL2或PL=d",
+      "必须配备安全防护装置和紧急停止",
+      "必须提供完整的安全手册",
+      "操作人员必须接受安全培训"
+    ],
+    "scope": "适用于工业环境中的操作机器人"
+  },
+  {
+    "id": "ul-3300",
+    "number": "UL 3300",
+    "name": "服务机器人安全标准",
+    "description": "美国服务机器人的安全评估标准",
+    "market": "美国",
+    "robotTypes": ["服务机器人", "人形机器人"],
+    "priority": "recommended",
+    "status": "effective",
+    "effectiveDate": "2022-01-01",
+    "requirements": [
+      "必须进行风险评估和危害分析",
+      "与人接触的部件必须符合安全要求",
+      "电气安全符合UL 60950-1要求",
+      "电池系统需符合UL 2271或UL 2054",
+      "软件安全需符合UL 2900要求"
+    ],
+    "scope": "适用于商业和家庭环境中的服务机器人"
+  },
+  {
+    "id": "ul-3100",
+    "number": "UL 3100",
+    "name": "机器人系统通用安全评估",
+    "description": "机器人系统的通用安全评估框架",
+    "market": "美国",
+    "robotTypes": ["工业机器人", "服务机器人", "医疗机器人"],
+    "priority": "recommended",
+    "status": "effective",
+    "effectiveDate": "2020-01-01",
+    "requirements": [
+      "必须进行全面的风险评估",
+      "安全控制功能需验证",
+      "软件和网络安全需评估",
+      "电池和电源系统需符合UL标准",
+      "必须提供完整的技术文件"
+    ],
+    "scope": "适用于各类机器人系统的安全评估"
+  },
+  {
+    "id": "fcc-part-15",
+    "number": "FCC Part 15",
+    "name": "联邦通信委员会无线电频率规定",
+    "description": "美国关于电磁兼容和无线电频率的规定",
+    "market": "美国",
+    "robotTypes": ["工业机器人", "服务机器人", "医疗机器人", "无人机", "人形机器人"],
+    "priority": "mandatory",
+    "status": "effective",
+    "effectiveDate": "1975-01-01",
+    "requirements": [
+      "必须通过FCC认证或FCC自我声明",
+      "电磁辐射限值符合FCC Part 15要求",
+      "必须加贴FCC ID标签",
+      "无线通信设备需符合特定频段要求",
+      "提供电磁兼容测试报告"
+    ],
+    "scope": "适用于所有在美国市场销售的电子设备，包括机器人"
+  },
+  {
+    "id": "jis-b-8400",
+    "number": "JIS B 8400系列",
+    "name": "工业机器人安全标准",
+    "description": "日本工业机器人安全标准",
+    "market": "日本",
+    "robotTypes": ["工业机器人"],
+    "priority": "mandatory",
+    "status": "effective",
+    "effectiveDate": "2013-01-01",
+    "requirements": [
+      "必须进行风险评估（ISO 12100）",
+      "安全控制系统等级达到PL=d",
+      "必须配备安全防护装置",
+      "必须提供日文版使用说明书",
+      "符合日本电气安全法要求"
+    ],
+    "scope": "适用于工业环境中的操作机器人"
+  },
+  {
+    "id": "iso-13849",
+    "number": "ISO 13849-1/2",
+    "name": "机械安全 控制系统安全相关部分",
+    "description": "机械控制系统安全性能等级的国际标准",
+    "market": "中国",
+    "robotTypes": ["工业机器人", "服务机器人", "医疗机器人"],
+    "priority": "recommended",
+    "status": "effective",
+    "effectiveDate": "2015-01-01",
+    "requirements": [
+      "确定所需的安全性能等级（PL）",
+      "设计安全控制功能并验证",
+      "计算PL值并记录验证过程",
+      "建立技术文件和验证报告",
+      "定期进行功能安全验证"
+    ],
+    "scope": "适用于机器人控制系统的安全功能设计和验证"
+  },
+  {
+    "id": "iso-12100",
+    "number": "ISO 12100:2010",
+    "name": "机械安全 设计通则 风险评估与风险减小",
+    "description": "机械产品设计风险评估的国际标准",
+    "market": "中国",
+    "robotTypes": ["工业机器人", "服务机器人", "医疗机器人", "人形机器人", "无人机"],
+    "priority": "recommended",
+    "status": "effective",
+    "effectiveDate": "2010-10-01",
+    "requirements": [
+      "必须进行全面的风险评估",
+      "识别所有可能的危害和危险情况",
+      "评估风险并确定风险减小措施",
+      "实施风险减小措施并验证",
+      "记录风险评估过程和结果"
+    ],
+    "scope": "适用于所有机械产品的设计阶段风险评估"
+  },
+  {
+    "id": "iso-45001",
+    "number": "ISO 45001:2018",
+    "name": "职业健康安全管理体系",
+    "description": "职业健康安全管理体系国际标准",
+    "market": "中国",
+    "robotTypes": ["工业机器人", "服务机器人"],
+    "priority": "optional",
+    "status": "effective",
+    "effectiveDate": "2018-03-12",
+    "requirements": [
+      "建立职业健康安全管理体系",
+      "识别和控制工作场所危害",
+      "提供员工健康安全培训",
+      "建立应急响应机制",
+      "定期进行体系审核和改进"
+    ],
+    "scope": "适用于机器人生产企业和使用场所的职业健康管理"
+  },
+  {
+    "id": "iec-61508",
+    "number": "IEC 61508系列",
+    "name": "电气/电子/可编程电子安全相关系统的功能安全",
+    "description": "功能安全基础国际标准",
+    "market": "中国",
+    "robotTypes": ["工业机器人", "医疗机器人", "服务机器人"],
+    "priority": "recommended",
+    "status": "effective",
+    "effectiveDate": "2010-04-01",
+    "requirements": [
+      "确定所需的安全完整性等级（SIL）",
+      "设计安全相关系统并验证",
+      "建立完整的技术文件",
+      "进行功能安全验证和评估",
+      "建立生命周期管理流程"
+    ],
+    "scope": "适用于机器人控制系统中安全相关电气/电子系统的设计和验证"
+  },
+  {
+    "id": "rtca-do-178c",
+    "number": "RTCA DO-178C",
+    "name": "机载系统和设备合格审定中的软件考虑",
+    "description": "航空软件开发和验证标准",
+    "market": "美国",
+    "robotTypes": ["无人机"],
+    "priority": "mandatory",
+    "status": "effective",
+    "effectiveDate": "2012-01-01",
+    "requirements": [
+      "根据软件关键性等级确定开发保证等级",
+      "遵循严格的软件开发流程",
+      "进行软件验证和测试",
+      "建立完整的软件生命周期数据",
+      "通过独立审查和合格审定"
+    ],
+    "scope": "适用于无人机机载软件的开发和合格审定"
+  },
+  {
+    "id": "faa-part-107",
+    "number": "FAA Part 107",
+    "name": "小型无人机系统运营规则",
+    "description": "美国小型无人机运营管理规则",
+    "market": "美国",
+    "robotTypes": ["无人机"],
+    "priority": "mandatory",
+    "status": "effective",
+    "effectiveDate": "2016-08-29",
+    "requirements": [
+      "无人机重量<25kg",
+      "必须在视距内飞行（VLOS）",
+      "飞行高度≤120m（400ft）",
+      "不得在人群上空飞行",
+      "必须通过FAA无人机飞行员认证"
+    ],
+    "scope": "适用于在美国境内运营的小型无人机系统"
+  },
+  {
+    "id": "gb-t-38052",
+    "number": "GB/T 38052-2019",
+    "name": "智能服务机器人 通用技术条件",
+    "description": "智能服务机器人的技术要求和测试方法",
+    "market": "中国",
+    "robotTypes": ["服务机器人", "人形机器人"],
+    "priority": "recommended",
+    "status": "effective",
+    "effectiveDate": "2020-05-01",
+    "requirements": [
+      "具备自主导航和避障能力",
+      "语音交互识别准确率≥90%",
+      "续航时间≥4小时",
+      "必须具备数据安全和隐私保护机制",
+      "提供远程监控和管理接口"
+    ],
+    "scope": "适用于智能服务机器人的设计、生产和应用"
+  }
+]

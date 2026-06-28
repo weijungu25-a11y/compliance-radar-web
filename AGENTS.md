@@ -1,5 +1,10 @@
 # 项目上下文
 
+### 项目定位
+
+**合规雷达 - 机器人合规导航仪**
+帮助企业快速了解机器人产品在不同市场的合规要求，提供法规时间线和合规查询服务。
+
 ### 版本技术栈
 
 - **Framework**: Next.js 16 (App Router)
@@ -19,14 +24,28 @@
 │   └── start.sh            # 生产环境启动脚本
 ├── src/
 │   ├── app/                # 页面路由与布局
-│   ├── components/ui/      # Shadcn UI 组件库
+│   │   ├── page.tsx        # 首页（Landing Page）
+│   │   ├── layout.tsx      # 根布局（含导航栏）
+│   │   ├── query/          # 合规查询模块
+│   │   │   ├── page.tsx    # 分步引导查询页
+│   │   │   └── results/    # 查询结果页
+│   │   └── about/          # 关于我们页面
+│   ├── components/         # 通用组件
+│   │   ├── ui/             # Shadcn UI 组件库
+│   │   └── Navigation.tsx  # 导航栏组件
+│   ├── data/               # 数据文件
+│   │   ├── standards.json  # 标准数据（25+条真实标准）
+│   │   ├── institutions.json # 检测机构数据（10+家）
+│   │   └ queryConfig.ts    # 查询配置（机器人类型、市场、场景）
 │   ├── hooks/              # 自定义 Hooks
 │   ├── lib/                # 工具库
 │   │   └── utils.ts        # 通用工具函数 (cn)
 │   └── server.ts           # 自定义服务端入口
 ├── next.config.ts          # Next.js 配置
 ├── package.json            # 项目依赖管理
-└── tsconfig.json           # TypeScript 配置
+├── tsconfig.json           # TypeScript 配置
+├── DESIGN.md               # 设计规范文档
+└── AGENTS.md               # 项目规范文档
 ```
 
 - 项目文件（如 app 目录、pages 目录、components 等）默认初始化到 `src/` 目录下。

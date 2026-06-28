@@ -1,0 +1,212 @@
+[
+  {
+    "id": "sgs",
+    "name": "SGS",
+    "fullName": "SGS通标标准技术服务有限公司",
+    "website": "https://www.sgs.com.cn",
+    "markets": ["中国", "欧盟", "美国", "日本"],
+    "specialties": [
+      "CE认证",
+      "FCC认证",
+      "RoHS检测",
+      "EMC测试",
+      "安全评估",
+      "ISO认证"
+    ],
+    "contact": {
+      "phone": "+86 400-880-9999",
+      "email": "contact.china@sgs.com",
+      "address": "上海市浦东新区张江高科技园区"
+    },
+    "description": "全球领先的检验、鉴定、测试和认证机构"
+  },
+  {
+    "id": "tuv-sud",
+    "name": "TÜV SÜD",
+    "fullName": "TÜV南德意志集团",
+    "website": "https://www.tuv-sud.cn",
+    "markets": ["欧盟", "中国", "美国"],
+    "specialties": [
+      "CE认证",
+      "机械安全评估",
+      "电气安全测试",
+      "功能安全认证",
+      "医疗器械认证",
+      "汽车行业认证"
+    ],
+    "contact": {
+      "phone": "+86 400-881-8666",
+      "email": "info.cn@tuv-sud.com",
+      "address": "上海市静安区南京西路1788号"
+    },
+    "description": "德国权威的认证机构，专注于安全、质量和可持续发展"
+  },
+  {
+    "id": "tuv-rheinland",
+    "name": "TÜV Rheinland",
+    "fullName": "TÜV莱茵集团",
+    "website": "https://www.tuv.com",
+    "markets": ["欧盟", "中国", "美国", "日本"],
+    "specialties": [
+      "CE认证",
+      "电磁兼容测试",
+      "安全认证",
+      "品质管理体系认证",
+      "产品认证",
+      "医疗器械认证"
+    ],
+    "contact": {
+      "phone": "+86 400-883-8333",
+      "email": "info.cn@tuv.com",
+      "address": "北京市朝阳区建国门外大街甲6号"
+    },
+    "description": "德国技术监督协会，提供全面的产品安全和质量认证服务"
+  },
+  {
+    "id": "intertek",
+    "name": "Intertek",
+    "fullName": "天祥集团",
+    "website": "https://www.intertek.com.cn",
+    "markets": ["中国", "欧盟", "美国", "日本"],
+    "specialties": [
+      "CE认证",
+      "FCC认证",
+      "UL认证代理",
+      "安全测试",
+      "性能测试",
+      "化学测试"
+    ],
+    "contact": {
+      "phone": "+86 400-886-9926",
+      "email": "info.cn@intertek.com",
+      "address": "上海市浦东新区陆家嘴环路1000号"
+    },
+    "description": "全球领先的质量和安全服务解决方案提供商"
+  },
+  {
+    "id": "ul-solutions",
+    "name": "UL Solutions",
+    "fullName": "UL安全科学研究所",
+    "website": "https://www.ul.com",
+    "markets": ["美国", "中国", "欧盟"],
+    "specialties": [
+      "UL认证",
+      "安全评估",
+      "电气安全测试",
+      "防火安全",
+      "EMC测试",
+      "软件安全评估"
+    ],
+    "contact": {
+      "phone": "+86 400-888-9888",
+      "email": "info.cn@ul.com",
+      "address": "上海市黄浦区淮海中路300号"
+    },
+    "description": "美国权威的独立安全科学机构，专注于产品安全认证"
+  },
+  {
+    "id": "cqc",
+    "name": "CQC",
+    "fullName": "中国质量认证中心",
+    "website": "https://www.cqc.com.cn",
+    "markets": ["中国"],
+    "specialties": [
+      "CCC认证",
+      "CQC自愿性认证",
+      "节能认证",
+      "环保认证",
+      "管理体系认证",
+      "产品性能认证"
+    ],
+    "contact": {
+      "phone": "+86 010-8226-1188",
+      "email": "web@cqc.com.cn",
+      "address": "北京市海淀区阜成路16号"
+    },
+    "description": "中国权威的认证机构，负责强制性产品认证（CCC认证）"
+  },
+  {
+    "id": "cr",
+    "name": "CR认证",
+    "fullName": "中国机器人认证",
+    "website": "https://www.cesi.cn",
+    "markets": ["中国"],
+    "specialties": [
+      "CR机器人认证",
+      "机器人安全评估",
+      "性能测试",
+      "可靠性测试",
+      "EMC测试",
+      "软件评估"
+    ],
+    "contact": {
+      "phone": "+86 010-6328-8000",
+      "email": "info@cesi.cn",
+      "address": "北京市西城区广安门外大街甲397号"
+    },
+    "description": "中国机器人产品专用认证标志，由赛西认证负责实施"
+  },
+  {
+    "id": "nemko",
+    "name": "Nemko",
+    "fullName": "挪威认证机构",
+    "website": "https://www.nemko.com",
+    "markets": ["欧盟", "美国", "中国"],
+    "specialties": [
+      "CE认证",
+      "NRTL认证",
+      "电气安全测试",
+      "EMC测试",
+      "产品认证",
+      "医疗设备认证"
+    ],
+    "contact": {
+      "phone": "+86 400-992-9966",
+      "email": "info.cn@nemko.com",
+      "address": "上海市徐汇区虹桥路1号"
+    },
+    "description": "挪威国家认证机构，提供国际认可的产品认证服务"
+  },
+  {
+    "id": "bv",
+    "name": "Bureau Veritas",
+    "fullName": "必维国际检验集团",
+    "website": "https://www.bureauveritas.com.cn",
+    "markets": ["中国", "欧盟", "美国"],
+    "specialties": [
+      "CE认证",
+      "检验服务",
+      "认证服务",
+      "测试服务",
+      "合规评估",
+      "质量管理体系"
+    ],
+    "contact": {
+      "phone": "+86 400-826-6166",
+      "email": "info.cn@bureauveritas.com",
+      "address": "上海市浦东新区世纪大道100号"
+    },
+    "description": "全球知名的检验、认证和测试服务提供商"
+  },
+  {
+    "id": "dekra",
+    "name": "DEKRA",
+    "fullName": "DEKRA德凯集团",
+    "website": "https://www.dekra.com",
+    "markets": ["欧盟", "中国", "美国"],
+    "specialties": [
+      "CE认证",
+      "汽车行业认证",
+      "电气安全测试",
+      "功能安全认证",
+      "工业安全",
+      "EMC测试"
+    ],
+    "contact": {
+      "phone": "+86 400-898-9688",
+      "email": "info.cn@dekra.com",
+      "address": "上海市黄浦区人民大道200号"
+    },
+    "description": "德国认证机构，专注于安全和质量认证服务"
+  }
+]
